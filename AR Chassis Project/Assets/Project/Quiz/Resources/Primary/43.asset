@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
+  m_Name: 43
+  m_EditorClassIdentifier: 
+  _info: A rack and pinion steering gear _____.
+  _answers:
+  - _info: has tie-rods that connect the rack directly to the steering arms
+    _isCorrect: 1
+  - _info: s a gear in which the rack needs an idler arm to change the direction
+      of the steering arms
+    _isCorrect: 0
+  - _info: has inner tie-rod ends that are pressed onto the rack
+    _isCorrect: 0
+  - _info: has more friction points compared to a parallelogram steering linkage
+    _isCorrect: 0
+  _useTimer: 0
+  _timer: 0
+  _answerType: 0
+  _addScore: 10
+  _wrongScore: 0

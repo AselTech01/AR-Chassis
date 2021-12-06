@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  _info: How long does CO2 remain in the atmosphere?
+  _answers:
+  - _info: CO2 washes out the atmosphere seasonally.
+    _isCorrect: 0
+  - _info: "CO2 remain in the atmosphere for 5 \u2013 10 years."
+    _isCorrect: 0
+  - _info: CO2 remains in the atmosphere for up to 200 years, or more.
+    _isCorrect: 1
+  _useTimer: 1
+  _timer: 50
+  _answerType: 1
+  _addScore: 10
+  _wrongScore: 0
