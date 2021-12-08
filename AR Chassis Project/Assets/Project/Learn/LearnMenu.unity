@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BRAKING SYSTEM
+  m_text: BREAKING SYSTEM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9eaa650a1213c3442ac7e83abcf0c3ec, type: 2}
   m_sharedMaterial: {fileID: -1972154106678060319, guid: 9eaa650a1213c3442ac7e83abcf0c3ec, type: 2}
