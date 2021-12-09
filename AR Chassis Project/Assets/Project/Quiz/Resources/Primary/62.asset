@@ -26,8 +26,8 @@ MonoBehaviour:
   - _info: The drivers foot had no direct correlation to the pressure on the braking
       system
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 50
   _answerType: 0
   _addScore: 10
   _wrongScore: 0

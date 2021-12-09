@@ -43,18 +43,6 @@ public class Content : LearnScript
                 content[3].SetActive(true);
                 break;
 
-            case 5:
-                content[4].SetActive(true);
-                break;
-
-            case 6:
-                content[5].SetActive(true);
-                break;
-
-            case 7:
-                content[6].SetActive(true);
-                break;
-
             default:
                 Debug.Log("Default");
                 break;
