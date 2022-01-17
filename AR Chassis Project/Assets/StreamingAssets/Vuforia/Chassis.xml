@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="cv-axle" size="5.000000 3.536223" />
+    <ImageTarget name="chassis" size="8.000000 5.657957" />
+    <ImageTarget name="steering" size="8.000000 5.657957" />
+    <ImageTarget name="suspension_system" size="1.000000 0.707245" />
+    <ImageTarget name="differential" size="1.000000 0.707245" />
+    <ImageTarget name="shock_absorber" size="1.000000 0.707245" />
+    <ImageTarget name="breaking_system" size="1.000000 0.707245" />
+  </Tracking>
+</QCARConfig>

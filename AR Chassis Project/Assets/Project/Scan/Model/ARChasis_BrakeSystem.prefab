@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 3383569084855710877}
   - component: {fileID: 5660164412390628886}
   - component: {fileID: 3825205089759167211}
+  - component: {fileID: 1474117209136622553}
+  - component: {fileID: 3757990901965320717}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.001
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be84059cdff4d1b489a877ade80a7d17, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,6 +83,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1474117209136622553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361683877650833910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: a73ae166ad6ce4b49bfb74d7c0c0c3eb, type: 2}
+--- !u!64 &3757990901965320717
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361683877650833910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4922822773823091852, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &1837385764987771986
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,9 +121,11 @@ GameObject:
   - component: {fileID: 8792369273876064223}
   - component: {fileID: 5993568327928683619}
   - component: {fileID: 5965805972581065510}
+  - component: {fileID: 750133097282558310}
+  - component: {fileID: 1605818888210338236}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.006
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -162,6 +193,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &750133097282558310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837385764987771986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 79929bbf5b0ae81438dcdbe8960cc18e, type: 2}
+--- !u!64 &1605818888210338236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837385764987771986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8986269439704516906, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &3207925528519455573
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +279,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,9 +312,11 @@ GameObject:
   - component: {fileID: 3863345114259896231}
   - component: {fileID: 1325401940401678675}
   - component: {fileID: 5383920629687825254}
+  - component: {fileID: 4830169703095113795}
+  - component: {fileID: 4669328830799614299}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.005
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -302,7 +362,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,6 +384,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4830169703095113795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4026044705647239958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 40a9413152f6c014aae0f7ed42dbf052, type: 2}
+--- !u!64 &4669328830799614299
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4026044705647239958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3249707687364757790, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &4195521902048786528
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,9 +422,11 @@ GameObject:
   - component: {fileID: 8045842986250066892}
   - component: {fileID: 2026449658135406304}
   - component: {fileID: 1272125740467223696}
+  - component: {fileID: 1357741606594954937}
+  - component: {fileID: 5362812723201423379}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.013
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,7 +472,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -405,6 +494,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1357741606594954937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195521902048786528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 40a9413152f6c014aae0f7ed42dbf052, type: 2}
+--- !u!64 &5362812723201423379
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195521902048786528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -536600256210047696, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &5145409439891947135
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,9 +532,11 @@ GameObject:
   - component: {fileID: 849299095683545900}
   - component: {fileID: 8865545449146098972}
   - component: {fileID: 9222630893658177967}
+  - component: {fileID: 6063706058397148689}
+  - component: {fileID: 9083304079356195081}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.002
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,7 +582,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8f0720669581be4db405ea0dd77d23c, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -486,6 +604,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6063706058397148689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145409439891947135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: ee102f42a3d34404b8d3e9a236f274ed, type: 2}
+--- !u!64 &9083304079356195081
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145409439891947135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9045213802584061408, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &6699123902913587548
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,9 +642,11 @@ GameObject:
   - component: {fileID: 6637516040834439143}
   - component: {fileID: 5801445805635268224}
   - component: {fileID: 5080607038609585829}
+  - component: {fileID: 6838323593960037261}
+  - component: {fileID: 3753967777997022052}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -545,7 +692,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -567,6 +714,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6838323593960037261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699123902913587548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: fcd577955bd22d548b0162c498ce6f8c, type: 2}
+--- !u!64 &3753967777997022052
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699123902913587548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2720495777261312741, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &7999561025784734282
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7228267446434871536}
   - component: {fileID: 4794960633294286067}
+  - component: {fileID: 8667193422308728711}
   m_Layer: 0
   m_Name: ARChasis_BrakeSystem
   m_TagString: Untagged
@@ -618,7 +793,7 @@ Animator:
   m_GameObject: {fileID: 7999561025784734282}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d548f1ed7a1c7974f86f26cb3b2c0d92, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -627,6 +802,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8667193422308728711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999561025784734282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: f58291a7888edff42b7ca95dca718a8e, type: 2}
 --- !u!1 &8152930782197240189
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,9 +826,11 @@ GameObject:
   - component: {fileID: 8682124868270337593}
   - component: {fileID: 6287747974437744785}
   - component: {fileID: 1499992907915545161}
+  - component: {fileID: 3348890168435749687}
+  - component: {fileID: 6851955164664785551}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.010
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,7 +876,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8f0720669581be4db405ea0dd77d23c, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -708,6 +898,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3348890168435749687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152930782197240189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: ee102f42a3d34404b8d3e9a236f274ed, type: 2}
+--- !u!64 &6851955164664785551
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152930782197240189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 862948914804748761, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &8426021898301297461
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,9 +936,11 @@ GameObject:
   - component: {fileID: 6461292839406832317}
   - component: {fileID: 4353084402130156201}
   - component: {fileID: 4623652297108877289}
+  - component: {fileID: 5332098166346709365}
+  - component: {fileID: 8306670316897380446}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.007
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,7 +986,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf1589636310fb0479cd1c5d855ad1e3, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -789,6 +1008,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5332098166346709365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426021898301297461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 79929bbf5b0ae81438dcdbe8960cc18e, type: 2}
+--- !u!64 &8306670316897380446
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426021898301297461}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8498900337459737003, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
 --- !u!1 &8532734210618645799
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,9 +1046,11 @@ GameObject:
   - component: {fileID: 6477776996605828041}
   - component: {fileID: 7478475002853184559}
   - component: {fileID: 3156612975620939104}
+  - component: {fileID: 4673733774972097560}
+  - component: {fileID: 6843858100363952380}
   m_Layer: 0
   m_Name: BRAKE ASSEMBLY.008
-  m_TagString: Untagged
+  m_TagString: components
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -848,7 +1096,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 67b17f241c590064ca3df07af2789ed6, type: 2}
+  - {fileID: 2100000, guid: ba98ea3f5bbd96c43912ba64bc2c8c81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -870,3 +1118,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4673733774972097560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532734210618645799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011261e33b19b72428786e111b40327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 08e2e3a58a2c9074da3c49bb06175a35, type: 2}
+--- !u!64 &6843858100363952380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532734210618645799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4069603771097641807, guid: 1eeb4269368a39c429457bb0a0c02124, type: 3}
